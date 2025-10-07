@@ -8,6 +8,10 @@ app = Flask(__name__)
 def index():
     return send_file('src/index.html')
 
+@app.route("/static/<path:path>")
+def favicon():
+    return send_file('src/static/icons/favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 def main():
     app.run(port=int(os.environ.get('PORT', 80)))
 
