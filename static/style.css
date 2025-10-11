@@ -1,0 +1,49 @@
+/* ======== ESTILO GERAL ======== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 40px auto;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+/* ======== TÍTULOS ======== */
+h1 {
+    text-align: center;
+    color: #d2691e;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #b35414;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4d2c17;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ======== LISTAS ======== */
+ul, ol {
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+/* ======== IMAGEM ======== */
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== DETALHES ======== */
+li {
+    margin-bottom: 8px;
+}
+
