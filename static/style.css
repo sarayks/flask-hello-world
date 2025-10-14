@@ -1,4 +1,4 @@
-/* ======== ESTILO GERAL ======== */
+/* ESTILO GERAL */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background-color: #fff8f0;
@@ -36,11 +36,19 @@ ul, ol {
 
 /* ======== IMAGEM ======== */
 img {
-    display: block;
-    margin: 0 auto 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block;              /* Faz a imagem se comportar como bloco */
+  margin: 20px auto;           /* Centraliza horizontalmente */
+  border-radius: 12px;         /* Deixa as bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: transform 0.3s ease;
+  max-width: 350px;            /* Limita o tamanho máximo */
 }
+
+/* Efeito de leve aumento ao passar o mouse */
+img:hover {
+  transform: scale(1.03);
+}
+
 
 /* ======== DETALHES ======== */
 li {
